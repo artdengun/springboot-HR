@@ -32,8 +32,7 @@ public class ContactController {
 		
 		model.addAttribute("states", stateService.getStates());
 
-		
-		return "Contact";
+		return "contact";
 	}	
 	
 	@PostMapping("/contacts/addNew")
